@@ -396,7 +396,7 @@
                                 "#!/bin/bash -xe\n",
                                 "apt update -y\n",
                                 "apt install -y docker.io screen\n",
-                                "mkdir /wanchan\n",
+                                "mkdir /wanchain\n",
                                 "docker pull andrecronje/docker-geth-lb:wanchain-instance\n",
                                 "/usr/bin/screen -m -d -S docker docker run -e WS_SECRET='",
                                 {
